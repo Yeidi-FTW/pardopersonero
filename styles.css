@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.frase img{
+    width: 100%;
+    height: 200px;
+
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #f9ca24;
+}
+
+nav{
+    width: 100%;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background: #f9ca24;
+    
+}
+
+.logo {
+    flex-basis: 20%;   
+}
+
+.logo img{
+    width: 80px;
+    padding-left: 90px;
+}
+.nav-links {
+    text-align: left;
+    flex: 1;
+    position: sticky;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    border: solid black;
+    padding: 10px;
+}
+
+.about{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9ca24;
+}
+
+.about-section{
+    background: url(images/GTA.Travis.png) no-repeat left;
+    background-size: 55%;
+    background-color: white;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #f9ca24;
+    padding: 150px;
+}
+
+.inner-container h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 1000;
+}
+
+.about-text{
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.cuadros{
+    padding-left: 70px;
+    display: flex;
+    background: #fff;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  margin: 50px;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #f9ca24;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 35px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.pie{
+    background: black;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
